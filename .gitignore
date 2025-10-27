@@ -2,10 +2,8 @@
 val2017/
 annotations/
 
-# Large dataset files
-*.zip
-annotations_trainval2017.zip
-val2017.zip
+# Large dataset files (but allow specific zip files for LFS)
+# *.zip - commented out to allow LFS zip files
 
 # Virtual environment
 .venv/

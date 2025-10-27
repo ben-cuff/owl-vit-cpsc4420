@@ -1,13 +1,10 @@
-# Dataset directories
 val2017/
 annotations/
 
-# Large dataset files
 *.zip
 annotations_trainval2017.zip
 val2017.zip
 
-# Virtual environment
 .venv/
 __pycache__/
 *.pyc
@@ -20,10 +17,8 @@ ENV/
 env.bak/
 venv.bak/
 
-# Jupyter Notebook checkpoints
 .ipynb_checkpoints
 
-# OS generated files
 .DS_Store
 .DS_Store?
 ._*
@@ -31,6 +26,3 @@ venv.bak/
 .Trashes
 ehthumbs.db
 Thumbs.db
-
-# Model outputs and results  
-owlvit_coco_results.json
